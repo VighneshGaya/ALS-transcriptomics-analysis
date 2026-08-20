@@ -1,40 +1,10 @@
-# ALS-transcriptomics-analysis
-
-
-
-\## ALS and TDP-43 Depletion: Comparative Transcriptomics
-
-
-
-This project explores whether gene-expression changes associated with amyotrophic lateral sclerosis (ALS) show similarities to changes produced by TDP-43 depletion.
-
-
-
-The analysis compares two publicly available gene-expression datasets from the NCBI Gene Expression Omnibus (GEO):
-
-
-
-\- \[GSE76220](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE76220)
-
-\- \[GSE121569](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE121569)
-
-
-
-The analysis includes gene-level statistical testing, multiple-testing correction, gene matching between the datasets, comparison of expression changes, overlap and directional-agreement analysis, genes of interest, visualisation, and functional enrichment.
-
-
-
-The aim is to explore whether gene-expression changes in ALS show similarities to those seen after TDP-43 depletion, which could suggest a possible biological link. TDP-43 dysfunction is already strongly associated with ALS, including loss of its normal nuclear function and abnormal accumulation in the cytoplasm. However, this analysis is exploratory and the datasets analysed here are not used to suggest that TDP-43 depletion causes ALS or to prove a causal relationship.
-
-
-
-\## Notebook
-
-
-
-`notebooks/ALS\_Transcriptomics.ipynb`
-
-
+ALS & TDP-43 Transcriptomics Analysis
+Independent Research Project | April 2026 – Present
+•	Conducted an exploratory comparative transcriptomics analysis to investigate whether gene-expression changes associated with ALS show similarities to those produced by TDP-43 depletion.
+•	Analyzed publicly available GEO datasets GSE76220 and GSE121569 using Python.
+•	Applied Welch’s t-test, multiple-testing correction, hypergeometric test, directional concordance and Spearman correlation
+•	Investigated whether shared transcription patterns may suggest a possible biological connection between ALS and TDP-43 dysfunction
+•	To develop the project towards TDP-43-associated cryptic exon inclusion involving STMN2
 
 \## Requirements
 
